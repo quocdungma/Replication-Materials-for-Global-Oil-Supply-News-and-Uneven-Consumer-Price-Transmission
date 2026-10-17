@@ -4,7 +4,7 @@ This repository is being prepared as supporting material for the manuscript:
 
 **Global Oil Supply News and Uneven Consumer Price Transmission: Implications for Middle East Energy Risks**
 
-**Repository status:** Initial setup. The variable dictionary and data-availability documentation have been deposited. Numerical results, figures, and analytical code have **not yet been deposited**. The repository should not yet be described as a complete replication package.
+**Repository status:** Initial setup. Public documentation, a provisional CPI-source manifest, verified summary regression-result CSVs, and the three original manuscript figures have now been deposited. **Licensed CPI observations and executable replication code have not been deposited.** The repository should not yet be described as a complete replication package.
 
 ## Research overview
 
@@ -31,20 +31,47 @@ Researchers seeking proprietary CPI observations should consult the original pro
 
 ## Planned repository materials
 
-The file structure below distinguishes **available** documentation from **planned** files:
+The file structure below distinguishes **available** documentation/results from **planned** files:
 
 ```text
 README.md                   # Available
 DATA_AVAILABILITY.md        # Available
 data_dictionary.csv         # Available
-data_sources.csv            # Planned
-results/                    # Planned
-figures/                    # Planned
+data_sources.csv            # Available (provisional CPI ticker candidates; not final-code verified)
+results/                    # Available (v6-v7 published empirical summaries)
+figures/                    # Available (three original v6 figures; not the 2026 context Figure 4)
 code/                       # Planned
 requirements.txt            # Planned
 ```
 
 Where source data can lawfully be shared, the project aims to include verified analytical outputs, figure data, documented code, and sufficient instructions to reproduce the reported calculations with independently obtained licensed input data.
+
+## Verified analytical outputs available
+
+The `results/` folder contains the following author-generated CSV outputs recovered from the original `manuscript_v6/final_validation_v7` research folders in Google Drive:
+
+| File | Content |
+| --- | --- |
+| `pooled_lp_full_25h.csv` | Pooled cumulative CPI response, h = 0–24, HAC SE, Holm p, and Bonferroni familywise bands |
+| `country_lp_selected_horizons.csv` | 23 country coefficients at h = 0, 3, 6, 12 (92 rows); not all 25 country horizons |
+| `joint_wald_tests.csv` | Four Wald equality tests for h = 0, 3, 6, 12 |
+| `pooled_bootstrap_selected_horizons.csv` | Conditional block-score bootstrap results at 5 selected horizons |
+| `joint_wald_bootstrap.csv` | Bootstrap inference for four country-equality tests |
+| `leave_one_country_out.csv` | 92 country exclusion tests |
+| `gdp_size_gdppc_interactions.csv` | Two-way fixed-effect GDP size and income moderator results |
+| `gdp_size_influence_checks.csv` | GDP moderator influence and selected energy interactions |
+| `region_interaction_tests.csv` | Geographic moderator tests |
+| `robustness_alternative_specs.csv` | Alternative dynamic controls and study periods |
+| `us_cpi_u_sensitivity.csv` | Alternative U.S. CPI-U comparison |
+| `selected_main_estimates.csv` | Selected manuscript results from v7 |
+
+The `figures/` folder contains the *unchanged original image bytes* for Figures 1–3 sourced from the v6 output folder. **The 2026 oil-price context Figure 4 is not part of this upload**, because its final provenance and exact manuscript version require a separate audit.
+
+**Internal numerical cross-check completed:** The selected v7 pooled coefficients match the v6 pooled output for the overlapping horizons; v7 and v6 Wald test statistics agree for h = 0, 3, 6, 12. This does not replace a reproduction run from raw inputs.
+
+**Important CPI source warning:** `data_sources.csv` reports baseline availability and identifies *candidate* LSEG RICs from an earlier provisional quality-assurance table. Those candidate codes were not marked approved or definition/date-basis verified in the original QA register; consequently, the `regression_RIC_exactly_confirmed` field is `False` throughout. Some candidates involve historical monthly standardization of quarterly-source data. **Do not cite these candidate codes as definitively used in the regressions until checked against the final panel construction code.**
+
+**Code availability:** No original local-projection or bootstrap scripts have yet been located and validated for public release. The deposited CSVs provide numerical auditability but **not full independent re-estimation**.
 
 ## Reproducibility and limitations
 
