@@ -2,7 +2,7 @@
 
 **Study:** *Global Oil Supply News and Uneven Consumer Price Transmission: Implications for Middle East Energy Risks*
 
-**Repository status (17 October 2026):** This repository is in preparation. As of this document's creation, the README and this data-availability document are the only deposited research files. **No national CPI observations, analysis-ready dataset, replication scripts, or empirical-result tables have yet been deposited.** Do not describe this repository as a complete replication archive.
+**Repository status (17 October 2026):** This repository is in preparation. At this stage, the deposited research files are `README.md`, `DATA_AVAILABILITY.md`, and `data_dictionary.csv`. **No national CPI observations, analysis-ready dataset, replication scripts, or empirical-result tables have yet been deposited.** Do not describe this repository as a complete replication archive.
 
 ## 1. Data used in the empirical analysis
 
@@ -29,12 +29,13 @@ The underlying CPI observations were retrieved through a commercial LSEG/Refinit
 
 Researchers seeking access to equivalent observations should request access from the original data provider or identify an independently licensed public source. A request to this repository's maintainer does **not** override LSEG/Refinitiv licensing rules. No claim is made that the author can directly supply restricted input data upon request.
 
-## 3. Research-generated materials planned for public release
+## 3. Research-generated documentation and materials
 
-Subject to checking provenance, numerical fidelity, and redistribution rights, the project intends to deposit:
+**Already available:** `README.md`, this data-access policy, and `data_dictionary.csv` documenting variable definitions. Fields requiring code-level or data-source verification are explicitly flagged in the dictionary.
+
+**Planned for future deposit:** Subject to checking provenance, numerical fidelity, and redistribution rights, the project intends to deposit:
 
 - A data-source manifest identifying the economies, CPI-series identifiers, date coverage, missing-data handling, and specific versions of public inputs.
-- A data dictionary describing transformations, outcomes, controls, shock normalization, and moderator definitions.
 - Pooled and country-specific cumulative CPI response estimates, standard errors, and confidence intervals.
 - Joint Wald equality tests, conditional block-score bootstrap summaries, selected sensitivity checks, and moderator regression results.
 - Figure-source tables, the final figures, and the analysis and plotting code actually used in the study, where verified and cleared for release.
@@ -50,11 +51,11 @@ Any replication of the reported coefficients requires matching the original coun
 
 The 2026 Middle East war and energy price developments are discussed as external context, not treated as model-estimated oil supply news shocks or used for causal forecasts of 2026 CPI.
 
-## 5. Proposed manuscript statement (DRAFT — not yet final)
+## 5. Data Availability Statement (final wording for the current repository contents)
 
-> The national CPI observations used in this study were accessed via LSEG/Refinitiv under institutional data-access arrangements and are subject to third-party licensing restrictions; these proprietary observations are not redistributed publicly. The published oil supply news measure and historical economic characteristics were obtained from third-party sources identified in the manuscript. Data-source documentation, non-proprietary numerical results, and verified replication materials will be deposited in the study's public research repository, subject to applicable redistribution restrictions. Details of the deposited materials and their persistent archive identifier will be provided when the release is finalized.
+The national consumer price index (CPI) observations used in this study were accessed through LSEG/Refinitiv under institutional data-access arrangements. These proprietary observations are subject to third-party licensing restrictions and cannot be redistributed publicly by the authors. Researchers wishing to obtain the underlying CPI observations should seek access directly from the data provider under the applicable licensing terms. The published oil supply news shock series and historical economic characteristics were obtained from the third-party sources cited in the manuscript. Documentation of data provenance, access restrictions, and variable definitions is publicly available at **https://github.com/quocdungma/Replication-Materials-for-Global-Oil-Supply-News-and-Uneven-Consumer-Price-Transmission**. At present, the repository contains research documentation and a data dictionary but does not provide the licensed CPI observations, full empirical-result tables, or executable replication code.
 
-**Do not paste this draft into a final submission as a promise of available files unless they have actually been deposited.** The final statement must identify the publicly accessible repository URL and, if required by the journal, the archived release DOI, and accurately list what is available.
+**Status clarification:** This statement accurately describes the repository *as currently published*. It is not a claim that a complete replication archive is available or that the journal has granted a commercial-data exemption. Update the final sentence if verified result tables or executable code are deposited before submission; add a persistent archival DOI when one is actually issued.
 
 ## 6. Citation, reuse, and repository archiving
 
