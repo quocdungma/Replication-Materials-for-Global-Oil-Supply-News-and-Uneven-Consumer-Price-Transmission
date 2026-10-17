@@ -4,7 +4,7 @@ This repository is being prepared as supporting material for the manuscript:
 
 **Global Oil Supply News and Uneven Consumer Price Transmission: Implications for Middle East Energy Risks**
 
-**Repository status:** Initial setup. Replication data, numerical results, figures, and analytical code have **not yet been deposited**. The repository should not yet be described as a complete replication package.
+**Repository status:** Initial setup. The variable dictionary and data-availability documentation have been deposited. Numerical results, figures, and analytical code have **not yet been deposited**. The repository should not yet be described as a complete replication package.
 
 ## Research overview
 
@@ -31,17 +31,17 @@ Researchers seeking proprietary CPI observations should consult the original pro
 
 ## Planned repository materials
 
-The following paths are **planned, not yet available**:
+The file structure below distinguishes **available** documentation from **planned** files:
 
 ```text
-README.md
-DATA_AVAILABILITY.md
-data_sources.csv
-data_dictionary.csv
-results/
-figures/
-code/
-requirements.txt
+README.md                   # Available
+DATA_AVAILABILITY.md        # Available
+data_dictionary.csv         # Available
+data_sources.csv            # Planned
+results/                    # Planned
+figures/                    # Planned
+code/                       # Planned
+requirements.txt            # Planned
 ```
 
 Where source data can lawfully be shared, the project aims to include verified analytical outputs, figure data, documented code, and sufficient instructions to reproduce the reported calculations with independently obtained licensed input data.
