@@ -1,0 +1,24 @@
+country,country_name,window_start,window_end,months_available_2000_2025,coverage_ratio,candidate_LSEG_RIC,candidate_approved_in_QA,candidate_definition_verified,candidate_date_basis_verified,regression_RIC_exactly_confirmed,source,documentation_note
+AU,Australia,2000-01,2025-12,312,1.0,aAUCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+BR,Brazil,2000-01,2025-12,312,1.0,aBRCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+CA,Canada,2000-01,2025-12,312,1.0,CACPIT=ECI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+CL,Chile,2000-01,2025-12,312,1.0,aCLCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+CN,China,2000-01,2025-12,312,1.0,aCNCPI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+DE,Germany,2000-01,2025-12,312,1.0,aDECCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+FR,France,2000-01,2025-12,312,1.0,FRCPIT=ECI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+GB,United Kingdom,2000-01,2025-12,312,1.0,aGBCPHMTLF,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+ID,Indonesia,2000-01,2025-12,312,1.0,aIDCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+IN,India,2000-01,2025-12,312,1.0,aINCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+JP,Japan,2000-01,2025-12,312,1.0,JPCPT=ECI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+KR,South Korea,2000-01,2025-12,312,1.0,aKRCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+MX,Mexico,2000-01,2025-12,312,1.0,aMXCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+MY,Malaysia,2000-01,2025-12,312,1.0,aMYCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+NO,Norway,2000-01,2025-12,312,1.0,aNOCPI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+PH,Philippines,2000-01,2025-12,312,1.0,aPHCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+SA,Saudi Arabia,2000-01,2025-12,312,1.0,aSACCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+SG,Singapore,2000-01,2025-12,312,1.0,SGCPIT=ECI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+TH,Thailand,2000-01,2025-12,312,1.0,aTHCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+TW,Taiwan,2000-01,2025-12,312,1.0,aTWCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+US,United States,2000-01,2025-12,311,0.9967948717948718,USCPIW=ECI,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+VN,Vietnam,2000-01,2025-12,312,1.0,aVNCCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
+ZA,South Africa,2000-01,2025-12,312,1.0,aZACCPIE/CA,False,False,False,False,LSEG/Refinitiv,Candidate RIC from provisional historical validation; do not treat it as the confirmed final regression series
